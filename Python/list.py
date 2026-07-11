@@ -1,3 +1,4 @@
+'''
 my_list_var = [1, 2, 3, 4, 5]
 print (my_list_var [2])
 # list is mutable, meaning you can change its content without changing its identity.. 
@@ -17,7 +18,7 @@ print (my_tuple_var [0:3]) #range
 
 #Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
 # Also known as key value pair. 
-
+'''
 
 my_dict_var = {"name": "Reynaldo", "age": 30, "city": "New York"}
-print(my_dict_var["name"])
+print (my_dict_var ["name"], my_dict_var ["age"], my_dict_var ["city"])
