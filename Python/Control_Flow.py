@@ -1,18 +1,33 @@
-'''
-cars = {
-    "car1": {"make": "Toyota", "model": "Corolla", "year": 2020},
-    "car2": {"make": "Honda", "model": "Civic", "year": 2019},
-    "car3": {"make": "Ford", "model": "Mustang", "year": 2022}
-}
-'''
-
-cars = [
-    {"make": "Toyota", "model": "Corolla"},
-    {"make": "Honda", "model": "Civic"},
-    {"make": "Ford", "model": "Mustang"}
-]
 
 
+# cars = [
+#     {"make": "Toyota", "model": "Corolla"},
+#     {"make": "Honda", "model": "Civic"},
+#     {"make": "Ford", "model": "Mustang"}
+# ]
 
-if favorite_cars == []:
-    print ("This list is empty:")
+# if cars == []:
+#     print("This list is empty:")
+# else:
+#     print("This list is not empty")
+#     print(cars)
+
+
+value = "red"
+
+match value:
+    case "red":
+        print("Stop")
+    case "green":
+        print("Go")
+    case "yellow":
+        print("Slow down")
+    case _:
+        print("Unknown")
+
+car = {"make": "Toyota", "year": 2020}
+
+match car:
+    case {"make": make, "year": year}:
+        print(make, year)
+
