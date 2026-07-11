@@ -27,6 +27,15 @@
 
 # car = {"make": "Toyota", "year": 2020}
 
+# *******************************************************For*************************
+
+fav_cars = ["Toyota Corolla", 
+        "Honda Civic", 
+        "Ford Mustang"]
+
+for car in fav_cars:
+    print(car)
+    print("Next Item: ")
 
 
 
