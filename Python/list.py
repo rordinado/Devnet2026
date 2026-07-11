@@ -13,3 +13,9 @@ print (my_list_var)
 my_tuple_var = ("reyanldo")
 print (my_tuple_var [2])
 print (my_tuple_var [0:3]) #range
+
+
+#Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
+
+my_dict_var = {"name": "Reynaldo", "age": 30, "city": "New York"}
+print(my_dict_var["name"])
