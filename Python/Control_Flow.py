@@ -27,7 +27,5 @@ match value:
 
 car = {"make": "Toyota", "year": 2020}
 
-match car:
-    case {"make": make, "year": year}:
-        print(make, year)
+
 
