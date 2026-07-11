@@ -22,3 +22,15 @@ print (my_tuple_var [0:3]) #range
 
 my_dict_var = {"name": "Reynaldo", "age": 30, "city": "New York"}
 print (my_dict_var ["name"], my_dict_var ["age"], my_dict_var ["city"])
+
+my_first_dict = {
+    "name": "Reynaldo",
+    "age": 30,
+    "city": "New York"
+}
+
+# below os the sample to add other details to the dictionary.    
+print(my_first_dict ["name"], my_first_dict ["age"])
+
+print(my_first_dict.get("name"), my_first_dict.get("age"))
+
