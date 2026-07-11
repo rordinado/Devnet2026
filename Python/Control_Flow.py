@@ -13,19 +13,21 @@
 #     print(cars)
 
 
-value = "red"
+# value = "yellow"
 
-match value:
-    case "red":
-        print("Stop")
-    case "green":
-        print("Go")
-    case "yellow":
-        print("Slow down")
-    case _:
-        print("Unknown")
+# match value:
+#     case "red":
+#         print("Stop")
+#     case "green":
+#         print("Go")
+#     case "yellow":
+#         print("Slow down")
+#     case _:
+#         print("Unknown")
 
-car = {"make": "Toyota", "year": 2020}
+# car = {"make": "Toyota", "year": 2020}
+
+
 
 
 
